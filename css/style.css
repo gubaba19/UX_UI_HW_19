@@ -8,13 +8,16 @@ header {
 header ul {
   float: right;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 header li {
   display: inline-block;
   padding: 0px 5px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 header p {
   display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .heroImg {
   background-color: #EBEBEB;
@@ -26,13 +29,26 @@ header p {
   padding: 50px;
   background-color: #FFFFFF;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 button {
   padding: 15px;
-  background-color: #373738;
+  background-color: #D91E40;
   color: white;
   font-size: 15px;
   border-radius: 4px;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3{ 
+  font-family: Arial, Helvetica, sans-serif;
+}
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
 }
 footer {
   background-color: #373738;
@@ -46,6 +62,7 @@ footer ul {
 footer li {
   display: inline-block;
   padding: 0px 7px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .heading {
   text-align: center;
@@ -104,4 +121,14 @@ footer li {
 }
 .content3 {
   grid-area: content3;
+}
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #EBEBEB;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
 }
